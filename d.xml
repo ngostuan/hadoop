@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+                identifier="Present:Present:HTML"
+                title="pwn">
+  <itemBody xmlns="http://www.w3.org/1999/xhtml">
+    <svg onload="alert(document.domain)"></svg>
+  </itemBody>
+</assessmentItem>
