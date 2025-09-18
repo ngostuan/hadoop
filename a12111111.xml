@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem identifier="Present:External:Scorable"
+  title="{grp} &#60;svg/onload=alert(document.domain)&#62;"
+  toolVersion="1.0">
+  <itemBody>
+    <div id="content"><![CDATA[<img src=x onerror=alert(document.domain)>]]></div>
+  </itemBody>
+</assessmentItem>
