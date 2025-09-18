@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<assessmentItem identifier="Present:External:Scorable" title="{grp} Demo" toolVersion="1.0">
+<assessmentItem identifier="Present:External:Scorable" title="<img src=x onerror=alert(1)>" toolVersion="1.0">
   <itemBody>
     <div id="content">
       <![CDATA[
