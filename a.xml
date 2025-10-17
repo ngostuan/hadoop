@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem identifier="Input:Completion:Text gap" title="&lt;script&gt;alert(1)&lt;/script&gt;">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string">
+    <correctResponse>
+      <value>answer</value>
+    </correctResponse>
+  </responseDeclaration>
+
+  <itemBody>
+    <interaction identifier="Input:Completion:Text gap">
+      <div id="content">
+        <p>Fill in the gap:
+          <textEntryInteraction responseIdentifier="RESPONSE" expectedLength="15"/>
+        </p>
+      </div>
+    </interaction>
+  </itemBody>
+
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>
